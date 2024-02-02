@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*menubar*/
+#ab img{
+    width: 300px;
+    margin: 5px ;
+}
+
+#ab1{
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#ab2{
+    border: 2px solid black;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 14px;
+}
+
+#ab2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#ab3 input{
+    width: 370px;
+    margin: 30px 10px 20px 0;
+    padding: 7px;
+    border-radius: 14px;
+}
+
+#ab3 button{
+    border-radius: 14px;
+    padding: 7px;
+}
+
+/*section*/
+#ab4 ul li{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+#ab4 li a{
+    color: rgb(2, 2, 28);
+}
+
+#ab4{
+    position: sticky;
+    top:0;
+    z-index: 99999;
+}
+
+#ab4 ul li a:hover{
+    color: green;
+}
+
+#ab6 img{
+    width: 100%;
+    background-color: blue;
+}
+
+#card_length img{
+    height: 150px;
+    padding: 10px;
+}
+
+#card_length{
+    border-radius: 14px;
+}
+
+#ab7 a img{
+    width:350px;
+    height:300px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.card-title a{
+    color: black;
+}
+
+.card-title a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+/*footer sidebaar*/
+#footer-sidebaar{
+    background-color: rgb(17, 17, 21);
+    color: white;
+}
+
+#social-icons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#social-icons a{
+    padding-left: 20px;
+    color: yellow;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#footer h2{
+    color: white;
+}

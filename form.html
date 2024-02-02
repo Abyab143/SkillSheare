@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #forms img {
+            width: 300px;
+            margin: 15px;
+        }
+
+        #forms {
+            width: 370px;
+            height: 480px;
+            border: 2px solid black;
+            margin-top: 150px;
+            border-radius: 28px;
+        }
+
+        #forms input {
+            display: block;
+            padding: 10px;
+            margin: 5px;
+            margin-left: 30px;
+            font-size: 15px;
+            background-color: bisque;
+            border-radius: 14px;
+            width: 250px;
+        }
+
+        .btn {
+            height: 30px;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        #ab1 {
+            border: 2px solid black;
+            padding: 15px;
+        }
+
+        #ab2 a{
+            text-decoration: none;
+        }
+
+        #ab2 a:hover {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container bg-light" id="forms">
+        <div class="row">
+            <img src="./image/logo.png" alt="e-learning">
+        </div>
+        <div class="row">
+            <input type="emails" placeholder="emails">
+            <input type="password" placeholder="passage">
+            <button class="btn btn-success">LOGIN</button>
+        </div>
+        <div class="row">
+            <p class="text-center font-weight-bold m-2 ml-5">OR LOGIN WITH</p>
+        </div>
+        <div class="div mt-1 ml-4" id="ab2">
+            <button><a href="google.com">Google+</a></button>
+            <button><a href="google.com">emails</a></button>
+            <button><a href="google.com">facebook</a></button>
+        </div>
+        <p class="font-weight-bold ml-4 mt-3" id="ab1">Don’t have an acount? <button
+                class="btn btn-success pb-4 m-2">Register</button></p>
+    </div>
+
+</body>
+
+</html>
